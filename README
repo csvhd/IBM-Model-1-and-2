@@ -1,0 +1,29 @@
+--------------------------------------------------------------
+
+REQUIREMENTS:
+
+Python3
+json
+nltk.translate
+collections
+
+--------------------------------------------------------------
+
+STEPS TO RUN:
+
+1) Change the file path in the FILE variable, to the desired json file
+2) Change the SOURCE_LANGUAGE and DESTINATION_LANGUAGE to the language tags in the json file
+3) Change the NUMBER_OF_ITERATIONS to one's liking
+
+--------------------------------------------------------------
+
+BRIEF DESCRIPTION ABOUT THE CODE:
+
+1) IBM_1.py -- It is the python3 implementation of IBM 1 Model without using any inbuilt nltk libraries, implementing the EM algorithm through custom code.
+
+2) IBMnltk.py -- It is the python3 implementation of IBM 1 and IBM 2 Model using ibm1 and ibm2 from nltk.translate libraries available open source.
+
+3) phrase_extract.py -- It is the python3 implementation of the phrase extraction and phrase scores using the inbuilt phrase_extractor from the nltk.translate libraries available open source.
+
+--------------------------------------------------------------
+

@@ -1,0 +1,112 @@
+REQUIREMENTS :
+
+python3
+nltk
+json
+collections
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IBM_1.py
+
+Objective:
+
+	To implement the IBM Model 1 without using inbuilt libraries from nltk
+
+
+Data Structures used:
+
+	Multi-dimensional dictionaries
+	json objects
+
+
+Runtime:
+
+	0.01017 secs for the input file -- data2_french.json(provided with the assignment) and iterations -- 40
+	0.01095 secs for the input file -- data_german.json(made by us) and iterations -- 40
+
+
+Comments:
+
+	The alignments obtained for the dataset provided in the assignment which was from French to English were 100% accurate.
+
+	However the accuracy fell in the dataset made by us which was from German to English.
+
+	The main reason for this fall in accuracy was due to the use of multiple German words for the same meaning in different contexts.
+	
+	For eg : grun, grune, grunen are all used for the color green in the German language, due to this, our model couldn't map the correct alignments in the small dataset and led to the following matchings:
+		grunen --> a
+		grun --> green #correct
+		grune --> in
+
+	The correct alignement would be:
+		grunen,grun,grune --> green
+
+	This was not a problem in the french language as the words were consistent by changing context.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IBMnltk.py
+
+Objective:
+
+	To implement the IBM Model 1 and IBM Model 2 using the inbuilt libraries in nltk.translate
+
+
+Data Structures used:
+
+	list
+
+
+Runtime:
+	
+	0.01939 secs for the input file -- data2_french.json(provided with the assignment) and 	iterations -- 40 on the IBM Model 1
+	0.09102 secs for the input file -- data2_french.json(provided with the assignment) and 	iterations -- 40 on the IBM Model 2
+	0.01979 secs for the input file -- data_german.json(made by us) and iterations -- 40 on the IBM Model 1
+	0.09163 secs for the input file -- data_german.json(made by us) and iterations -- 40 on the IBM Model 2
+
+
+Comments:
+
+	There was no major difference between the results of IBM Model 1 and IBM Model 2 other than 
+	increased runtime, since the dataset is of less size, it is very hard for the model to train on the German sentences, leading to the same problem in IBM_1.py.
+	French translation was flawless as before.
+	
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+phrase_extract.py
+
+Objective:
+	
+	To implement the IBM Model 1 and the phrase_extractor from the inbuilt libraries in nltk.translate and to output in the descending order of the phrase scores of the phrases,
+ 	  where,
+
+	phrase_score = (Number of times both the source and destination phrase occurs in the corpus)
+                       ----------------------------------------------------------------------------
+                                   (Number of times the source phrase occurs in the corpus)
+
+	
+Data Structures used:
+
+ 	list
+
+Runtime:
+
+	0.02669 secs for the input file -- data2_french.json(provided with the assignment) and 	iterations -- 40 on the IBM Model 1
+	0.02521 secs for the input file -- data_german.json(made by us) and iterations -- 40 on the IBM Model 1
+
+Comments:
+
+	Most of the phrase scores obtained were 1, as the dataset was very small and almost all of the times the source and destination phrase were used at the same time in the corpus in the
+	same context, there were some phrases with scores less than 1, but they were not a majority.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Limitations of IBM Model 1 and 2(since the dataset was small and not diverse, the difference between the results of the two models was negligible):
+
+	The main drawback that we could find was that the models, especially the Model 1 was unable to match the different words with the same meanings used in different contexts together
+	E.g. : Green in IBM_1.py
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	

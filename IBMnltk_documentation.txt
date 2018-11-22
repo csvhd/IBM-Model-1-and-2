@@ -1,0 +1,143 @@
+IBM MODEL 1 :
+
+Source sentence
+[u'das', u'haus', u'ist', u'in', u'indien']
+Destination sentence
+[u'the', u'house', u'is', u'in', u'india']
+Alignment
+0-0 1-1 2-2 3-3 4-4
+
+Source sentence
+[u'indien', u'ist', u'gr\xfcn']
+Destination sentence
+[u'india', u'is', u'green']
+Alignment
+0-0 1-1 2-2
+
+Source sentence
+[u'intelligent', u'ist', u'das', u'm\xe4dchen']
+Destination sentence
+[u'intelligent', u'is', u'the', u'girl']
+Alignment
+0-0 1-1 2-2 3-3
+
+Source sentence
+[u'in', u'indien', u'ist', u'das', u'gr\xfcne', u'm\xe4dchen']
+Destination sentence
+[u'in', u'india', u'is', u'the', u'green', u'girl']
+Alignment
+0-0 1-1 2-2 3-3 4-0 5-5
+
+Source sentence
+[u'das', u'm\xe4dchen', u'hat', u'einen', u'gr\xfcnen', u'stuhl']
+Destination sentence
+[u'the', u'girl', u'has', u'a', u'green', u'chair']
+Alignment
+0-0 1-1 2-2 3-2 4-3 5-5
+
+Source sentence
+[u'ein', u'm\xe4dchen', u'ist', u'auf', u'dem', u'gr\xfcnen', u'stuhl']
+Destination sentence
+[u'a', u'girl', u'is', u'on', u'the', u'green', u'chair']
+Alignment
+0-0 1-1 2-2 3-3 4-3 5-0 6-6
+
+Source sentence
+[u'ein', u'stuhl', u'ist', u'in', u'indien']
+Destination sentence
+[u'a', u'chair', u'is', u'in', u'india']
+Alignment
+0-0 1-1 2-2 3-3 4-4
+
+Source sentence
+[u'der', u'stuhl', u'ist', u'gr\xfcn']
+Destination sentence
+[u'the', u'chair', u'is', u'green']
+Alignment
+0-3 1-1 2-2 3-3
+
+----------------------------------------
+IBM MODEL 2 :
+
+Source sentence
+[u'das', u'haus', u'ist', u'in', u'indien']
+Destination sentence
+[u'the', u'house', u'is', u'in', u'india']
+Alignment
+0-0 1-1 2-2 3-3 4-4
+
+Source sentence
+[u'indien', u'ist', u'gr\xfcn']
+Destination sentence
+[u'india', u'is', u'green']
+Alignment
+0-0 1-1 2-2
+
+Source sentence
+[u'intelligent', u'ist', u'das', u'm\xe4dchen']
+Destination sentence
+[u'intelligent', u'is', u'the', u'girl']
+Alignment
+0-0 1-1 2-2 3-3
+
+Source sentence
+[u'in', u'indien', u'ist', u'das', u'gr\xfcne', u'm\xe4dchen']
+Destination sentence
+[u'in', u'india', u'is', u'the', u'green', u'girl']
+Alignment
+0-0 1-1 2-2 3-3 4-0 5-5
+
+Source sentence
+[u'das', u'm\xe4dchen', u'hat', u'einen', u'gr\xfcnen', u'stuhl']
+Destination sentence
+[u'the', u'girl', u'has', u'a', u'green', u'chair']
+Alignment
+0-0 1-1 2-2 3-2 4-3 5-5
+
+Source sentence
+[u'ein', u'm\xe4dchen', u'ist', u'auf', u'dem', u'gr\xfcnen', u'stuhl']
+Destination sentence
+[u'a', u'girl', u'is', u'on', u'the', u'green', u'chair']
+Alignment
+0-0 1-1 2-2 3-3 4-3 5-0 6-6
+
+Source sentence
+[u'ein', u'stuhl', u'ist', u'in', u'indien']
+Destination sentence
+[u'a', u'chair', u'is', u'in', u'india']
+Alignment
+0-0 1-1 2-2 3-3 4-4
+
+Source sentence
+[u'der', u'stuhl', u'ist', u'gr\xfcn']
+Destination sentence
+[u'the', u'chair', u'is', u'green']
+Alignment
+0-3 1-1 2-2 3-3
+
+----------------------------------------
+Help on module IBMnltk:
+
+NAME
+    IBMnltk
+
+FILE
+    /home/csvhd/Desktop/IR_3/IBMnltk.py
+
+FUNCTIONS
+    IBM_Model_1(corpus)
+        #method for executing the IBM Model 2
+    
+    IBM_Model_2(corpus)
+        #method for executing the IBM Model 2
+    
+    main()
+        #main function
+
+DATA
+    DESTINATION_LANGUAGE = 'en'
+    FILE = 'data_german.json'
+    NUMBER_OF_ITERATIONS = 100
+    SOURCE_LANGUAGE = 'gr'
+
+

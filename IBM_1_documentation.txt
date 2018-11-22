@@ -1,0 +1,128 @@
+haus
+	house
+indien
+	india
+der
+	green
+stuhl
+	chair
+in
+	in
+einen
+	has
+dem
+	on
+ist
+	is
+grünen
+	a
+das
+	the
+intelligent
+	intelligent
+grüne
+	in
+ein
+	a
+grün
+	green
+hat
+	has
+auf
+	on
+mädchen
+	girl
+
+Source sentence
+das haus ist in indien
+Destination sentence
+the house is in india
+Alignment
+0-0 1-1 2-2 3-3 4-4 
+
+Source sentence
+indien ist grün
+Destination sentence
+india is green
+Alignment
+0-0 1-1 2-2 
+
+Source sentence
+intelligent ist das mädchen
+Destination sentence
+intelligent is the girl
+Alignment
+0-0 1-1 2-2 3-3 
+
+Source sentence
+in indien ist das grüne mädchen
+Destination sentence
+in india is the green girl
+Alignment
+0-0 1-1 2-2 3-3 4-0 5-5 
+
+Source sentence
+das mädchen hat einen grünen stuhl
+Destination sentence
+the girl has a green chair
+Alignment
+0-0 1-1 2-2 3-2 4-3 5-5 
+
+Source sentence
+ein mädchen ist auf dem grünen stuhl
+Destination sentence
+a girl is on the green chair
+Alignment
+0-0 1-1 2-2 3-3 4-3 5-0 6-6 
+
+Source sentence
+ein stuhl ist in indien
+Destination sentence
+a chair is in india
+Alignment
+0-0 1-1 2-2 3-3 4-4 
+
+Source sentence
+der stuhl ist grün
+Destination sentence
+the chair is green
+Alignment
+0-3 1-1 2-2 3-3 
+
+Help on module IBM_1:
+
+NAME
+    IBM_1
+
+FUNCTIONS
+    EM(corpus)
+        #method to train the EM model the specified number of iterations
+    
+    get_words(corpus)
+        #method to get all the words in the corpus in a more accessible dictionary where dictionary maps the tag of the language to the  words
+    
+    initialize_uniform(corpus)
+        #method to initialize the transition_probabilities to 1/(length of the sentence in the source language)
+    
+    main()
+        #main method to start the program
+    
+    pretty(d, indent=0)
+        #code to print dictionaries in a more readable way
+    
+    print_result(result, corpus)
+        #method to print the alignment as per the IBM nltk module standard
+    
+    result_with_maxprob(current)
+        #method to return the translations with the maximum translation probabilities in form of a dictionary
+
+DATA
+    DESTINATION_LANGUAGE = 'en'
+    FILE = 'data_german.json'
+    NUMBER_OF_ITERATIONS = 40
+    SOURCE_LANGUAGE = 'gr'
+
+FILE
+    /home/csvhd/Desktop/IR_3/IBM_1.py
+
+

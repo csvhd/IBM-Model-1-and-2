@@ -1,0 +1,788 @@
+IBM MODEL 1 :
+
+Source sentence
+['la', 'maison', 'est', 'en', 'inde']
+Destination sentence
+['the', 'house', 'is', 'in', 'india']
+Alignment
+0-0 1-1 2-2 3-3 4-4
+
+Source sentence
+["l'", 'inde', 'est', 'verte']
+Destination sentence
+['india', 'is', 'green']
+Alignment
+0-0 1-0 2-1 3-2
+
+Source sentence
+['la', 'fille', 'est', 'intelligent']
+Destination sentence
+['intelligent', 'is', 'the', 'girl']
+Alignment
+0-2 1-3 2-1 3-0
+
+Source sentence
+['la', 'fille', 'verte', 'est', 'en', 'inde']
+Destination sentence
+['in', 'india', 'is', 'the', 'green', 'girl']
+Alignment
+0-3 1-5 2-4 3-2 4-0 5-1
+
+Source sentence
+['la', 'fille', 'a', 'une', 'chaise', 'verte']
+Destination sentence
+['the', 'girl', 'has', 'a', 'green', 'chair']
+Alignment
+0-0 1-1 2-2 3-3 4-5 5-4
+
+Source sentence
+['sur', 'la', 'chaise', 'verte', 'est', 'une', 'fille']
+Destination sentence
+['a', 'girl', 'is', 'on', 'the', 'green', 'chair']
+Alignment
+0-3 1-4 2-6 3-5 4-2 5-0 6-1
+
+Source sentence
+['dans', "l'", 'inde', 'est', 'une', 'chaise']
+Destination sentence
+['a', 'chair', 'is', 'in', 'india']
+Alignment
+0-3 1-4 2-4 3-2 4-0 5-1
+
+Source sentence
+['la', 'chaise', 'est', 'verte']
+Destination sentence
+['the', 'chair', 'is', 'green']
+Alignment
+0-0 1-1 2-2 3-3
+
+----------------------------------------
+
+Source sentence
+['la', 'maison', 'est', 'en', 'inde']
+Destination sentence
+['the', 'house', 'is', 'in', 'india']
+Alignment
+0-0 1-1 2-2 3-3 4-4
+
+Source phrase
+maison est en inde
+Destination phrase
+house is in india
+Phrase Score
+1.0
+
+Source phrase
+maison est en
+Destination phrase
+house is in
+Phrase Score
+1.0
+
+Source phrase
+maison est
+Destination phrase
+house is
+Phrase Score
+1.0
+
+Source phrase
+maison
+Destination phrase
+house
+Phrase Score
+1.0
+
+Source phrase
+la maison est en inde
+Destination phrase
+the house is in india
+Phrase Score
+1.0
+
+Source phrase
+la maison est en
+Destination phrase
+the house is in
+Phrase Score
+1.0
+
+Source phrase
+la maison est
+Destination phrase
+the house is
+Phrase Score
+1.0
+
+Source phrase
+la maison
+Destination phrase
+the house
+Phrase Score
+1.0
+
+Source phrase
+la
+Destination phrase
+the
+Phrase Score
+1.0
+
+Source phrase
+inde
+Destination phrase
+india
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+en inde
+Destination phrase
+in india
+Phrase Score
+1.0
+
+Source phrase
+en
+Destination phrase
+in
+Phrase Score
+1.0
+
+Source phrase
+est en inde
+Destination phrase
+is in india
+Phrase Score
+0.5
+
+Source phrase
+est en
+Destination phrase
+is in
+Phrase Score
+0.5
+
+Source sentence
+["l'", 'inde', 'est', 'verte']
+Destination sentence
+['india', 'is', 'green']
+Alignment
+0-0 1-0 2-1 3-2
+
+Source phrase
+verte
+Destination phrase
+green
+Phrase Score
+1.0
+
+Source phrase
+l' inde est verte
+Destination phrase
+india is green
+Phrase Score
+1.0
+
+Source phrase
+l' inde
+Destination phrase
+india
+Phrase Score
+1.0
+
+Source phrase
+est verte
+Destination phrase
+is green
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+l' inde est
+Destination phrase
+india is
+Phrase Score
+0.5
+
+Source sentence
+['la', 'fille', 'est', 'intelligent']
+Destination sentence
+['intelligent', 'is', 'the', 'girl']
+Alignment
+0-2 1-3 2-1 3-0
+
+Source phrase
+la fille est intelligent
+Destination phrase
+intelligent is the girl
+Phrase Score
+1.0
+
+Source phrase
+la fille est
+Destination phrase
+is the girl
+Phrase Score
+1.0
+
+Source phrase
+la
+Destination phrase
+the
+Phrase Score
+1.0
+
+Source phrase
+intelligent
+Destination phrase
+intelligent
+Phrase Score
+1.0
+
+Source phrase
+fille
+Destination phrase
+girl
+Phrase Score
+1.0
+
+Source phrase
+est intelligent
+Destination phrase
+intelligent is
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+la fille
+Destination phrase
+the girl
+Phrase Score
+0.6666666666666666
+
+Source sentence
+['la', 'fille', 'verte', 'est', 'en', 'inde']
+Destination sentence
+['in', 'india', 'is', 'the', 'green', 'girl']
+Alignment
+0-3 1-5 2-4 3-2 4-0 5-1
+
+Source phrase
+verte
+Destination phrase
+green
+Phrase Score
+1.0
+
+Source phrase
+la fille verte est en inde
+Destination phrase
+in india is the green girl
+Phrase Score
+1.0
+
+Source phrase
+la fille verte est
+Destination phrase
+is the green girl
+Phrase Score
+1.0
+
+Source phrase
+la fille verte
+Destination phrase
+the green girl
+Phrase Score
+1.0
+
+Source phrase
+la
+Destination phrase
+the
+Phrase Score
+1.0
+
+Source phrase
+inde
+Destination phrase
+india
+Phrase Score
+1.0
+
+Source phrase
+fille verte
+Destination phrase
+green girl
+Phrase Score
+1.0
+
+Source phrase
+fille
+Destination phrase
+girl
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+en inde
+Destination phrase
+in india
+Phrase Score
+1.0
+
+Source phrase
+en
+Destination phrase
+in
+Phrase Score
+1.0
+
+Source phrase
+est en inde
+Destination phrase
+in india is
+Phrase Score
+0.5
+
+Source sentence
+['la', 'fille', 'a', 'une', 'chaise', 'verte']
+Destination sentence
+['the', 'girl', 'has', 'a', 'green', 'chair']
+Alignment
+0-0 1-1 2-2 3-3 4-5 5-4
+
+Source phrase
+verte
+Destination phrase
+green
+Phrase Score
+1.0
+
+Source phrase
+une chaise verte
+Destination phrase
+a green chair
+Phrase Score
+1.0
+
+Source phrase
+une
+Destination phrase
+a
+Phrase Score
+1.0
+
+Source phrase
+la fille a une chaise verte
+Destination phrase
+the girl has a green chair
+Phrase Score
+1.0
+
+Source phrase
+la fille a une
+Destination phrase
+the girl has a
+Phrase Score
+1.0
+
+Source phrase
+la fille a
+Destination phrase
+the girl has
+Phrase Score
+1.0
+
+Source phrase
+la
+Destination phrase
+the
+Phrase Score
+1.0
+
+Source phrase
+fille a une chaise verte
+Destination phrase
+girl has a green chair
+Phrase Score
+1.0
+
+Source phrase
+fille a une
+Destination phrase
+girl has a
+Phrase Score
+1.0
+
+Source phrase
+fille a
+Destination phrase
+girl has
+Phrase Score
+1.0
+
+Source phrase
+fille
+Destination phrase
+girl
+Phrase Score
+1.0
+
+Source phrase
+chaise verte
+Destination phrase
+green chair
+Phrase Score
+1.0
+
+Source phrase
+chaise
+Destination phrase
+chair
+Phrase Score
+1.0
+
+Source phrase
+a une chaise verte
+Destination phrase
+has a green chair
+Phrase Score
+1.0
+
+Source phrase
+a une
+Destination phrase
+has a
+Phrase Score
+1.0
+
+Source phrase
+la fille
+Destination phrase
+the girl
+Phrase Score
+0.6666666666666666
+
+Source phrase
+a
+Destination phrase
+has
+Phrase Score
+0.14285714285714285
+
+Source sentence
+['sur', 'la', 'chaise', 'verte', 'est', 'une', 'fille']
+Destination sentence
+['a', 'girl', 'is', 'on', 'the', 'green', 'chair']
+Alignment
+0-3 1-4 2-6 3-5 4-2 5-0 6-1
+
+Source phrase
+verte
+Destination phrase
+green
+Phrase Score
+1.0
+
+Source phrase
+une fille
+Destination phrase
+a girl
+Phrase Score
+1.0
+
+Source phrase
+une
+Destination phrase
+a
+Phrase Score
+1.0
+
+Source phrase
+sur la chaise verte est une fille
+Destination phrase
+a girl is on the green chair
+Phrase Score
+1.0
+
+Source phrase
+sur la chaise verte est
+Destination phrase
+is on the green chair
+Phrase Score
+1.0
+
+Source phrase
+sur la chaise verte
+Destination phrase
+on the green chair
+Phrase Score
+1.0
+
+Source phrase
+sur la
+Destination phrase
+on the
+Phrase Score
+1.0
+
+Source phrase
+sur
+Destination phrase
+on
+Phrase Score
+1.0
+
+Source phrase
+la chaise verte
+Destination phrase
+the green chair
+Phrase Score
+1.0
+
+Source phrase
+la
+Destination phrase
+the
+Phrase Score
+1.0
+
+Source phrase
+fille
+Destination phrase
+girl
+Phrase Score
+1.0
+
+Source phrase
+est une fille
+Destination phrase
+a girl is
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+chaise verte
+Destination phrase
+green chair
+Phrase Score
+1.0
+
+Source phrase
+chaise
+Destination phrase
+chair
+Phrase Score
+1.0
+
+Source sentence
+['dans', "l'", 'inde', 'est', 'une', 'chaise']
+Destination sentence
+['a', 'chair', 'is', 'in', 'india']
+Alignment
+0-3 1-4 2-4 3-2 4-0 5-1
+
+Source phrase
+une
+Destination phrase
+a
+Phrase Score
+1.0
+
+Source phrase
+l' inde
+Destination phrase
+india
+Phrase Score
+1.0
+
+Source phrase
+est une chaise
+Destination phrase
+a chair is
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+dans l' inde est une chaise
+Destination phrase
+a chair is in india
+Phrase Score
+1.0
+
+Source phrase
+dans l' inde est
+Destination phrase
+is in india
+Phrase Score
+1.0
+
+Source phrase
+dans l' inde
+Destination phrase
+in india
+Phrase Score
+1.0
+
+Source phrase
+dans
+Destination phrase
+in
+Phrase Score
+1.0
+
+Source phrase
+chaise
+Destination phrase
+chair
+Phrase Score
+1.0
+
+Source phrase
+une chaise
+Destination phrase
+a chair
+Phrase Score
+0.5
+
+Source sentence
+['la', 'chaise', 'est', 'verte']
+Destination sentence
+['the', 'chair', 'is', 'green']
+Alignment
+0-0 1-1 2-2 3-3
+
+Source phrase
+verte
+Destination phrase
+green
+Phrase Score
+1.0
+
+Source phrase
+la chaise est verte
+Destination phrase
+the chair is green
+Phrase Score
+1.0
+
+Source phrase
+la chaise est
+Destination phrase
+the chair is
+Phrase Score
+1.0
+
+Source phrase
+la
+Destination phrase
+the
+Phrase Score
+1.0
+
+Source phrase
+est verte
+Destination phrase
+is green
+Phrase Score
+1.0
+
+Source phrase
+est
+Destination phrase
+is
+Phrase Score
+1.0
+
+Source phrase
+chaise est verte
+Destination phrase
+chair is green
+Phrase Score
+1.0
+
+Source phrase
+chaise est
+Destination phrase
+chair is
+Phrase Score
+1.0
+
+Source phrase
+chaise
+Destination phrase
+chair
+Phrase Score
+1.0
+
+Source phrase
+la chaise
+Destination phrase
+the chair
+Phrase Score
+0.5
+
+Help on module phrase_extract:
+
+NAME
+    phrase_extract
+
+FUNCTIONS
+    IBM_Model_1(corpus)
+        #calling the inbuilt IBM1 method
+    
+    main()
+
+DATA
+    DESTINATION_LANGUAGE = 'en'
+    FILE = 'data2_french.json'
+    NUMBER_OF_ITERATIONS = 100
+    SOURCE_LANGUAGE = 'fr'
+
+FILE
+    /home/csvhd/Desktop/IR_3/phrase_extract.py
+
+
